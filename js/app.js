@@ -35,6 +35,14 @@ const Nav = () => (
     </nav>
 )
 
+const Attraction = ({title, description, image, className}) => (
+    <div className={className}>
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <img src={`../images/${image}`}/>
+    </div>
+)
+
 const App = () => (
     <div>
         <div className="min-vh-100 ph4 flex flex-column">
@@ -42,7 +50,9 @@ const App = () => (
             <Intro />
         </div>
         <div className="flex flex-wrap container">
-
+            {attractions.map(attraction =>
+                <Attraction {...attraction} />
+            )}
         </div>
     </div>
 );

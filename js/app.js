@@ -114,6 +114,12 @@ const App = () => (
         <Attraction {...attraction} />
       ))}
     </div>
+    <div className="credits">
+      <h3>
+        Made with 💙 by{" "}
+        <a href="https://github.com/ami-onodera/lost-in-tokyo">Ami Onodera</a>
+      </h3>
+    </div>
   </div>
 );
 

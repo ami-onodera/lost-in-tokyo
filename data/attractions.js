@@ -1,72 +1,69 @@
 const attractions = [
   {
-    title: 'Mori Art Museum',
+    title: "Shibuya Crossing",
     description:
-      'The Mori Art Museum strives to be a place for enjoyment, stimulation and discussion - a place where what is important in our culture and society is openly debated.',
-    link: 'http://www.mori.art.museum',
-    image: 'image_1.jpg',
-    className: 'w-50-l'
+      "Shibuya is a major commercial and finance center, that houses the two busiest railway stations in the world, Shinjuku Station (southern half) and Shibuya Station. The Shibuya Crossing is frequently called the busiest pedestrian intersection in the world.",
+    link: "http://www.mori.art.museum",
+    image: "image_1.jpg",
+    className: "w-50-l",
   },
   {
-    title: 'Robot Restaurant',
+    title: "Robot Restaurant",
     description:
-      'Located in Shinjuku, the Robot Restaurant features a raucous pop-culture show with robotic monsters, dancers & lasers. A weird but wonderfully exciting experience.',
-    link: 'http://www.shinjuku-robot.com/pc/system.php?lng=en',
-    image: 'image_2.jpg',
-    className: 'w-third-l ml5-l'
+      "Located in Shinjuku, the Robot Restaurant features a raucous pop-culture show with robotic monsters, dancers & lasers. A weird but wonderfully exciting experience.",
+    link: "http://www.shinjuku-robot.com/pc/system.php?lng=en",
+    image: "image_2.jpg",
+    className: "w-third-l ml5-l",
   },
   {
-    title: 'JBS Jazz Bar',
+    title: "Takeshita Street - Harajuku",
     description:
-      'Home to over 10,000 records, JBS Jazz Bar is burrowed away in Shibuya. If simplicity, vinyl and fine whisky are what you’re in search of, this place is for you.',
-    image: 'image_3.jpg',
-    className: 'w-third-l ml-auto-ns'
+      "This is a unique pedestrian shopping street, where most of the business are small independent shops that carry an array of japanese alternative street fashion styles, like Lolita, Gyaru, Decora, and other trends.",
+    image: "image_3.jpg",
+    className: "w-third-l ml-auto-ns",
   },
   {
-    title: 'Nyan da Neko',
+    title: "Kawaii Monster Cafe",
     description:
-      'If you love coffee, but you love cats more, Nyan da Neko is worthy of a visit. Located in Odaiba, you can enjoy your beverage with the company of up to 40 cats. Meow.',
-    image: 'image_4.jpg',
-    className: 'w-40-l ml5-l mr5-l'
+      "Kawaii Monster Cafe is one of the iconic places in Harajuku area where you can have the most unique and super Kawaii dining experience.  The entire cafe was designed by a famous creator/designer Masuda Sebastian who  is known as a pioneer of the Harajuku pop culture.",
+    image: "image_4.jpg",
+    className: "w-40-l ml5-l mr5-l",
   },
   {
-    title: 'Yayoi Kusama Museum',
+    title: "Unicorn Gundam in Odaiba",
     description:
-      'It could be said that it is Kusama’s second golden age. So after much anticipation, the Yayoi Kusama Museum finally opened its doors. We recommend getting tickets, as it’s deservingly popular.',
-    link: 'http://yayoi-kusama.jp',
-    image: 'image_5.jpg',
-    className: 'w-30-l'
+      "The Life-Sized Unicorn Gundam Statue is a full-scale statue of the RX-0 Unicorn Gundam from the series Mobile Suit Gundam Unicorn installed outside Odaiba's DiverCity Tokyo Plaza, in Tokyo, Japan. It replaced a previous statue of the RX-78-2 Gundam model.",
+    image: "image_5.jpg",
+    className: "w-50-l",
   },
   {
-    title: 'Mount Zine',
+    title: "Akihabara Electric Town",
     description:
-      'Selling every zine they’re presented with, Mount Zine replace their stock every 6 months. Simply have a browse, or join one of the zine-making workshops they regularly host.',
-    link: 'https://zine.mount.co.jp/',
-    image: 'image_6.jpg',
-    className: 'w-third-l ml5-l mr-auto-l'
+      "Akihabara is considered by many to be the centre of modern Japanese popular culture and a major shopping district for video games, anime, manga, electronics and computer-related goods. Icons from popular anime and manga are displayed prominently on the shops in the area, and numerous maid cafés and some arcades are found throughout the district.",
+    image: "image_6.jpg",
+    className: "w-third-l ml5-l mr-auto-l",
   },
   {
-    title: 'Sanrio Puroland',
+    title: "Sanrio Puroland",
     description:
-      'An indoor theme park with appearances from Hello Kitty, My Melody, Cinnamoroll and many more. Need we say more?',
-    link: 'https://en.puroland.jp/homeen/',
-    image: 'image_7.jpg',
-    className: 'w-third-l ml-auto-l mr5-l'
+      "An indoor theme park with appearances from Hello Kitty, My Melody, Cinnamoroll and many more. Need we say more?",
+    link: "https://en.puroland.jp/homeen/",
+    image: "image_7.jpg",
+    className: "w-third-l ml-auto-l mr5-l",
   },
   {
-    title: 'Sumida Hokusai Museum',
+    title: "Sensō-ji Temple",
     description:
-      'Now a cultural landmark in Tokyo, the Hokusai Museum amalgamates modern architecture and the artist’s traditional woodblock prints. It’s definitely worth checking out.',
-    link: 'http://hokusai-museum.jp/?lang=en',
-    image: 'image_8.jpg',
-    className: 'w-third-l mr-auto-l'
+      "Sensō-ji is an ancient Buddhist temple located in Asakusa. It is Tokyo's oldest temple, and one of its most significant. It is the most widely visited spiritual site in the world with over 30 million visitors annually.",
+    image: "image_8.jpg",
+    className: "w-third-l mr-auto-l",
   },
   {
-    title: 'Ghibli Museum',
+    title: "Ghibli Museum",
     description:
-      'A short ride outside of Tokyo, the Ghibli museum showcases the work of Studio Ghibli – the creators of Spirited Away, My Neighbour Totoro and many other Anime feature films. This is one for the animation-lovers.',
-    link: 'http://www.ghibli-museum.jp/en/',
-    image: 'image_9.jpg',
-    className: 'w-third-l ml-auto-l'
-  }
+      "A short ride outside of Tokyo, the Ghibli museum showcases the work of Studio Ghibli – the creators of Spirited Away, My Neighbour Totoro and many other Anime feature films. This is one for the animation-lovers.",
+    link: "http://www.ghibli-museum.jp/en/",
+    image: "image_9.jpg",
+    className: "w-third-l ml-auto-l",
+  },
 ];

@@ -12,10 +12,10 @@ const Intro = () => (
       in <Highlight color="blue">Tokyo</Highlight>, Japan.
     </div>
     <div>
-      From <Highlight color="blue">museums</Highlight> and{" "}
+      From <Highlight color="blue">temples</Highlight> and{" "}
       <Highlight color="blue">galleries</Highlight>, to{" "}
-      <Highlight color="pink">Robot Restaurants</Highlight> and{" "}
-      <Highlight color="pink">kitten cafes</Highlight>, Tokyo is the gift that
+      <Highlight color="pink">themed Restaurants</Highlight> and{" "}
+      <Highlight color="pink">cute cafes</Highlight>, Tokyo is the gift that
       keeps on giving. <Highlight color="yellow">Dattebayo</Highlight>!
     </div>
   </div>

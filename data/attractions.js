@@ -63,7 +63,7 @@ const attractions = [
     description:
       "A short ride outside of Tokyo, the Ghibli museum showcases the work of Studio Ghibli – the creators of Spirited Away, My Neighbour Totoro and many other Anime feature films. This is one for the animation-lovers.",
     link: "http://www.ghibli-museum.jp/en/",
-    image: "image_9.jpg",
+    image: "image_9.png",
     className: "w-third-l ml-auto-l",
   },
 ];

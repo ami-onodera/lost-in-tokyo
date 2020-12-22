@@ -13,9 +13,9 @@ const Intro = () => (
     </div>
     <div>
       From <Highlight color="blue">temples</Highlight> and{" "}
-      <Highlight color="blue">galleries</Highlight>, to{" "}
-      <Highlight color="pink">themed Restaurants</Highlight> and{" "}
-      <Highlight color="pink">cute cafes</Highlight>, Tokyo is the gift that
+      <Highlight color="blue">busy streets</Highlight>, to{" "}
+      <Highlight color="pink">themed restaurants</Highlight> and{" "}
+      <Highlight color="pink">gigant robots</Highlight>, Tokyo is the gift that
       keeps on giving. <Highlight color="yellow">Dattebayo</Highlight>!
     </div>
   </div>
